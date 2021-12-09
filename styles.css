@@ -1,0 +1,192 @@
+:root {
+    --primary-coloer: #0d49ec;
+    --off-white: #D1D5DB;
+    --dark-gray: #D1D5DB;
+}
+
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 2px;
+
+}
+
+/* spece ke liye use hota hai */
+hr {
+    margin: 3rem 0rem;
+
+}
+
+
+.d {
+    font-size: x-large;
+    margin-bottom: 2rem;
+}
+
+
+.container-center {
+    max-width: 400px;
+    margin: auto;
+    text-align: center;
+    margin-top: 3rem;
+    /* background-color: var(--off-white); */
+}
+
+/* links ka line hatane ke liye*/
+
+
+.link {
+    /* margin: 1rem; */
+    box-sizing: border-box;
+    text-decoration: none;
+    padding: 0.5rem 3rem;
+    /* margin-top: 1rem;
+    margin-bottom: 1rem; */
+}
+
+/* primary link coloer */
+.link-Primary {
+    margin: 1rem;
+    color: var(--primary-coloer);
+    background-color: var(--primary-coloer);
+    /* border; */
+    border-radius: 00.5rem;
+    color: white;
+
+
+}
+.ow{
+    background-color: #D1D5DB;
+}
+.link-Secondary {
+    /* margin: 1rem; */
+    color: var(--primary-coloer);
+    border-radius: 00.5rem;
+    border: 1px solid white;
+    /* border: white; */
+}
+
+
+/* list */
+
+.non-bullet {
+    list-style: none;
+}
+
+.list-item-inline {
+    display: inline;
+    padding: 1rem 0.5rem;
+}
+
+
+/* navigation */
+
+.navigation {
+    background-color: var(--primary-coloer);
+    color: white;
+    padding: 3rem;
+    border-bottom-left-radius: 1rem;
+
+}
+
+.navigation .nav-brand {
+    font-weight: bold;
+    font-size: 2.1rem;
+}
+
+
+.navigation .nav-pills {
+    text-align: right;
+
+}
+
+/* about home ke text ka coloer change karne ke liye */
+.navigation .link {
+    color: white;
+}
+
+
+.navigation .link-active {
+    font-weight: bold;
+    font-size: x-large;
+}
+
+/* header */
+
+.hero {
+    padding: 2rem;
+    padding-top: 5rem;
+}
+
+.hero .hero-img {
+    max-width: 360px;
+    display: block;
+    margin: auto;
+}
+
+.hero .hero-heading {
+    text-align: center;
+    font-size: xx-large;
+    margin: 1rem;
+    color: var(--primary-coloer);
+}
+
+
+.section {
+    padding: 3rem;
+}
+
+/* sections */
+.section h3 {
+    text-align: center;
+    margin: auto
+}
+
+.section h2 {
+    font-size: x-large;
+}
+
+/* section background color */
+/* .ow {
+    background-color: var(--off-white);
+} */
+
+/* footers */
+.footer {
+    background-color: var(--primary-coloer);
+    padding: 2rem 3rem;
+    text-align: center;
+    color: white;
+    border-top-right-radius: 1rem;
+
+}
+
+.footer .link {
+    color: white;
+}
+
+.footer .footer-header {
+    font-weight: bold;
+    font-size: xx-large;
+}
+
+
+.footer ul {
+    padding-inline-start: 1px;
+}
+
+.container {
+    text-align: center;
+}
+.img{
+    width: 40rem;
+    height: 30rem;
+    border-radius: 50%;
+    text-align: center;
+    margin-left: 30rem;
+}
+
+
+.nav-brand {
+    margin-right: 70%;
+}
